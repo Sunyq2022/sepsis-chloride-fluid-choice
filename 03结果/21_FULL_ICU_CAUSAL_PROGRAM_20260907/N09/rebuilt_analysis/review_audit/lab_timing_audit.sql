@@ -1,0 +1,1 @@
+select c.stay_id,l.labevent_id,l.charttime,greatest(l.charttime,l.storetime) available_time,l.valuenum from review_people c join b.mimiciv_hosp.labevents l on l.hadm_id=c.hadm_id where l.itemid=50912 and l.valuenum>0 and l.charttime<=c.t0+interval '7d'

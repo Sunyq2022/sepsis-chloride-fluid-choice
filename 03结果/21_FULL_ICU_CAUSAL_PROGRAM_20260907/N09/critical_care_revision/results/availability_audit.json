@@ -1,0 +1,11 @@
+{
+  "matched_trigger_records": 552,
+  "missing_storetime": 0,
+  "trigger_mismatch": 0,
+  "bolus_before_availability": 0,
+  "sepsis_derived_time_after_trigger": 0,
+  "chloride_value_mismatch": 0,
+  "sample_to_store_minutes_median": 66.0,
+  "trigger_to_bolus_minutes_median": 77.0,
+  "status": "source-row audit; storage is a database availability proxy, not proof of clinician viewing"
+}

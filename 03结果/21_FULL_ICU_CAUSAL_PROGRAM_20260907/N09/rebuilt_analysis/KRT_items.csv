@@ -1,0 +1,12 @@
+itemid,label,abbreviation,linksto,category,unitname,param_type,lownormalvalue,highnormalvalue
+224144,Blood Flow (ml/min),Blood Flow (ml/min),chartevents,Dialysis,ml/min,Numeric,,
+224154,Dialysate Rate,Dialysate Rate,chartevents,Dialysis,ml/hr,Numeric,,
+224191,Hourly Patient Fluid Removal,Hourly PFR,chartevents,Dialysis,mL,Numeric,,
+225441,Hemodialysis,Hemodialysis,procedureevents,4-Procedures,,Processes,,
+225802,Dialysis - CRRT,Dialysis - CRRT,procedureevents,Dialysis,,Processes,,
+225803,Dialysis - CVVHD,Dialysis - CVVHD,procedureevents,Dialysis,,Processes,,
+225805,Peritoneal Dialysis,Peritoneal Dialysis,procedureevents,Dialysis,,Processes,,
+225809,Dialysis - CVVHDF,Dialysis - CVVHDF,procedureevents,Dialysis,,Processes,,
+225955,Dialysis - SCUF,Dialysis - SCUF,procedureevents,Dialysis,,Processes,,
+226457,Ultrafiltrate Output,Ultrafiltrate Output,chartevents,Dialysis,mL,Numeric,,
+226499,Hemodialysis Output,Hemodialysis Output,chartevents,Dialysis,mL,Numeric,,

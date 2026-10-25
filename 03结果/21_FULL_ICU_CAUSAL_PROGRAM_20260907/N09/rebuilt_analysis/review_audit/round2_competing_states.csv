@@ -1,0 +1,9 @@
+arm,state,n,weighted_percent
+NS,Kidney event,52,14.750161202242177
+NS,Death before kidney event,49,12.597885869979738
+NS,ICU exit before kidney event,184,51.66718894362917
+NS,Event-free through day 7,86,20.98476398414892
+LR,Kidney event,17,8.402291095992195
+LR,Death before kidney event,29,16.222675644368735
+LR,ICU exit before kidney event,102,57.546841660476275
+LR,Event-free through day 7,33,17.828191599162775

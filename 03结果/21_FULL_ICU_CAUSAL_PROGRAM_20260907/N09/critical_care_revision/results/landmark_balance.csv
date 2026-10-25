@@ -1,0 +1,41 @@
+analysis,variable,smd_before,smd_after
+Six-hour landmark,num__age,0.08823510184084794,0.0016518495405219852
+Six-hour landmark,num__chloride,0.43016145630447733,0.005526546505221454
+Six-hour landmark,num__prior_chloride,0.39288425442471625,0.008479593860641585
+Six-hour landmark,num__ns_ml,0.3990356008708226,0.0107016040303189
+Six-hour landmark,num__lr_ml,0.7339661091022299,0.02238753527724401
+Six-hour landmark,num__sofa_score,0.09506509230570069,0.0025368651904242976
+Six-hour landmark,num__creat,0.0179035581972059,0.005681148408408899
+Six-hour landmark,num__low7,0.038957042500741626,0.0034823524506960436
+Six-hour landmark,num__aki_stage_creat,0.06518698349022321,0.002602319261117365
+Six-hour landmark,num__bicarbonate,0.2800041056636266,0.0038660799278546027
+Six-hour landmark,num__lactate,0.13067379394849718,0.0019159781331842495
+Six-hour landmark,num__map_mean,0.02055361112210983,0.0002650050920483115
+Six-hour landmark,num__pressor,0.08318750881201202,0.000555183414527601
+Six-hour landmark,num__ventilation,0.15356951880428252,0.0002454661110214919
+Six-hour landmark,num__urine6_ml,0.12038163260440007,0.0008541461561899315
+Six-hour landmark,num__urine24_hours,0.2581638677686299,0.004711616466904505
+Six-hour landmark,num__net24_ml,0.20907193264819007,0.0018607638762865384
+Six-hour landmark,num__creat_delta24,0.06988506602526202,0.0027802998140276027
+Six-hour landmark,num__chloride_delta48,0.051727639684941394,0.0058602216435981675
+Six-hour landmark,num__lactate_delta6,0.11724852704524291,0.0061887478940393864
+Six-hour landmark,num__missingindicator_prior_chloride,0.04877067802996864,0.0013013420038808
+Six-hour landmark,num__missingindicator_lactate,0.25696880948293643,0.0032161909630999447
+Six-hour landmark,num__missingindicator_urine6_ml,0.0009757702112213078,0.001209247294037955
+Six-hour landmark,num__missingindicator_net24_ml,0.06142751342333301,0.001951709272099948
+Six-hour landmark,num__missingindicator_lactate_delta6,0.2210121564333711,7.052192072305463e-05
+Six-hour landmark,cat__gender_F,0.022208254747425236,0.0009780606905550968
+Six-hour landmark,cat__gender_M,0.022208254747425125,0.0009780606905550968
+Six-hour landmark,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.46610965034817997,0.04362292213000611
+Six-hour landmark,cat__decision_careunit_Coronary Care Unit (CCU),0.2653270351666415,0.06011342835139554
+Six-hour landmark,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.32738762387394726,0.0073397922769925525
+Six-hour landmark,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.17441730185935783,0.024246186900112456
+Six-hour landmark,cat__decision_careunit_Neuro Intermediate,0.04403811459513283,0.03717803728786023
+Six-hour landmark,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.13641385741651532,0.06019047356628007
+Six-hour landmark,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.14020499690261237,0.017372961034979664
+Six-hour landmark,cat__decision_careunit_Trauma SICU (TSICU),0.08919120577037139,0.013385131437693496
+Six-hour landmark,cat__anchor_year_group_2008 - 2010,0.15498488040563377,0.016672967698900174
+Six-hour landmark,cat__anchor_year_group_2011 - 2013,0.05203260897338272,0.00948907772969919
+Six-hour landmark,cat__anchor_year_group_2014 - 2016,0.207044802142815,0.018485394290500504
+Six-hour landmark,cat__anchor_year_group_2017 - 2019,0.042509249251509826,0.016424584042128133
+Six-hour landmark,cat__anchor_year_group_2020 - 2022,0.00043134716330278205,0.0008864273610109095

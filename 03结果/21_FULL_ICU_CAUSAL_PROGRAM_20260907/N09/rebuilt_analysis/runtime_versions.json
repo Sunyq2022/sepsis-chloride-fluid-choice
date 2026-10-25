@@ -1,0 +1,17 @@
+{
+  "analysis_python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "analysis_packages": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "duckdb": "1.4.1",
+    "scikit-learn": "1.7.2",
+    "pyarrow": "18.1.0",
+    "matplotlib": "3.10.7",
+    "threadpoolctl": "3.6.0"
+  },
+  "document_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "document_packages": {
+    "python-docx": "1.2.0",
+    "Pillow": "12.3.0"
+  }
+}

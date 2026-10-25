@@ -1,0 +1,359 @@
+analysis,variable,smd_before,smd_after
+Main,num__age,0.10640443973741376,0.002390511384604971
+Main,num__chloride,0.4073372046845031,0.0025423126315844004
+Main,num__prior_chloride,0.3814577875046175,0.009143261387269376
+Main,num__ns_ml,0.3625242808358737,0.008091393735237323
+Main,num__lr_ml,0.7065111455596951,0.020662295006527397
+Main,num__sofa_score,0.03930953284061131,0.0018213440318069099
+Main,num__creat,0.044439979236299894,0.007467366426188479
+Main,num__low7,0.012687264321050658,0.002393812536359109
+Main,num__aki_stage_creat,0.03511623985247935,0.002700961650991682
+Main,num__bicarbonate,0.24216851192041172,0.006119194922131774
+Main,num__lactate,0.030828990845009646,0.004570616288586972
+Main,num__map_mean,0.011337046485663218,0.00047501779460750116
+Main,num__pressor,0.06372761335624563,0.0010657812845521661
+Main,num__ventilation,0.144349584804715,8.581787841266664e-05
+Main,num__urine6_ml,0.1274086703252092,0.0010514899621084143
+Main,num__urine24_hours,0.24950334735988317,0.004894258394154591
+Main,num__net24_ml,0.14842636221909428,0.0032313160821100064
+Main,num__creat_delta24,0.07748204183812776,0.003645256479832415
+Main,num__chloride_delta48,0.03609502514198394,0.005615969168197907
+Main,num__lactate_delta6,0.04452521968360318,0.0048805504010625824
+Main,num__missingindicator_prior_chloride,0.025463276496101493,0.0012388843230411984
+Main,num__missingindicator_lactate,0.19802631334998017,0.0015106267837437114
+Main,num__missingindicator_urine6_ml,0.004518413673252199,0.0022907951465066826
+Main,num__missingindicator_net24_ml,0.02205643897692765,0.0007989651678862946
+Main,num__missingindicator_lactate_delta6,0.18663390712576247,4.168543261392565e-05
+Main,cat__gender_F,0.015685544056361158,0.0006230825916073257
+Main,cat__gender_M,0.015685544056361047,0.0006230825916079992
+Main,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.454421394393661,0.046370342688867736
+Main,cat__decision_careunit_Coronary Care Unit (CCU),0.2640231100003964,0.05523933242830802
+Main,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.32711572670216166,0.0061085397019809565
+Main,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.19667116926151543,0.023227129056510084
+Main,cat__decision_careunit_Neuro Intermediate,0.044235746940965506,0.034323276683650115
+Main,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.14373522840392713,0.06272856379129027
+Main,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.13077543984735057,0.01585822451674177
+Main,cat__decision_careunit_Trauma SICU (TSICU),0.05417115237008426,0.005518614382475744
+Main,cat__anchor_year_group_2008 - 2010,0.15620769210671462,0.014327784243671687
+Main,cat__anchor_year_group_2011 - 2013,0.025706382761903818,0.0030361124021258284
+Main,cat__anchor_year_group_2014 - 2016,0.20289520273013667,0.016452952246875485
+Main,cat__anchor_year_group_2017 - 2019,0.017257360699500505,0.011727633381702275
+Main,cat__anchor_year_group_2020 - 2022,0.031158723913900968,0.023691427719404544
+Bolus within 2h,num__age,0.0880741699881832,0.0022830457243145446
+Bolus within 2h,num__chloride,0.46792198376508765,0.013985702011170194
+Bolus within 2h,num__prior_chloride,0.3500854676639789,0.0038553326446880217
+Bolus within 2h,num__ns_ml,0.3761234175504981,0.013088276750651585
+Bolus within 2h,num__lr_ml,0.7241655119283643,0.03682896716199663
+Bolus within 2h,num__sofa_score,0.0891330875610102,0.0007437652050598961
+Bolus within 2h,num__creat,0.04443443051313354,0.006835271471023796
+Bolus within 2h,num__low7,0.03474044808584102,0.0014247438291914317
+Bolus within 2h,num__aki_stage_creat,0.08342122173736931,0.003381922709669329
+Bolus within 2h,num__bicarbonate,0.2530971587821788,0.01142879702073218
+Bolus within 2h,num__lactate,0.026351500616396555,0.011725030349690607
+Bolus within 2h,num__map_mean,0.04474920884715313,0.0012852950475144588
+Bolus within 2h,num__pressor,0.011157326124963285,0.0008976741523128448
+Bolus within 2h,num__ventilation,0.15111860295677237,0.000262475918199792
+Bolus within 2h,num__urine6_ml,0.08785244836109454,0.005532401035858021
+Bolus within 2h,num__urine24_hours,0.20201169521347523,0.005125495872964781
+Bolus within 2h,num__net24_ml,0.12334520512467312,0.004425400887421938
+Bolus within 2h,num__creat_delta24,0.05664216028976899,0.005618704789903529
+Bolus within 2h,num__chloride_delta48,0.06557657314583364,0.00897421545222414
+Bolus within 2h,num__lactate_delta6,0.07290421747788581,0.010219239826270921
+Bolus within 2h,num__missingindicator_prior_chloride,0.1271314836235176,0.005518246559483431
+Bolus within 2h,num__missingindicator_lactate,0.09552277145011351,0.005262158670111452
+Bolus within 2h,num__missingindicator_urine6_ml,0.06489887607205279,0.0022811494853546793
+Bolus within 2h,num__missingindicator_net24_ml,0.03316976256441527,0.00535343253574318
+Bolus within 2h,num__missingindicator_lactate_delta6,0.1495393543676078,0.0014462559896424578
+Bolus within 2h,cat__gender_F,0.12373327417076174,0.006970352657351509
+Bolus within 2h,cat__gender_M,0.12373327417076162,0.006970352657351171
+Bolus within 2h,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.5046916033714356,0.09252764360573532
+Bolus within 2h,cat__decision_careunit_Coronary Care Unit (CCU),0.321610199386904,0.07245361088684263
+Bolus within 2h,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.29334374229065513,0.0006122396205171998
+Bolus within 2h,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.23317492636405127,0.04794807208117782
+Bolus within 2h,cat__decision_careunit_Neuro Intermediate,0.08998425413316952,0.08514873669948113
+Bolus within 2h,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.08321197793272134,0.06472266725628428
+Bolus within 2h,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.14729135308013896,0.036600309005961056
+Bolus within 2h,cat__decision_careunit_Trauma SICU (TSICU),0.11163065202139137,0.05304263949046203
+Bolus within 2h,cat__anchor_year_group_2008 - 2010,0.1670710457735982,0.031026578232841728
+Bolus within 2h,cat__anchor_year_group_2011 - 2013,0.002649485015560648,0.002379269100074327
+Bolus within 2h,cat__anchor_year_group_2014 - 2016,0.14393416126167377,0.019078312193915526
+Bolus within 2h,cat__anchor_year_group_2017 - 2019,0.08074409653925378,0.04474352466932714
+Bolus within 2h,cat__anchor_year_group_2020 - 2022,0.04108454468347496,0.049035714315242854
+No prior LR,num__age,0.14246642175267746,0.003032832685525188
+No prior LR,num__chloride,0.5769363822720883,0.008698862994398496
+No prior LR,num__prior_chloride,0.5351766334770188,0.02055275094118775
+No prior LR,num__ns_ml,0.4060689815173563,0.014611709491959288
+No prior LR,num__lr_ml,0.0,0.0
+No prior LR,num__sofa_score,0.038715071813674985,0.006828733030200195
+No prior LR,num__creat,0.07363236146498081,0.012195487323876637
+No prior LR,num__low7,0.024060157078335014,0.006769669771079879
+No prior LR,num__aki_stage_creat,0.11278422745081348,0.003481376224772251
+No prior LR,num__bicarbonate,0.2682040526499234,0.01075118537386134
+No prior LR,num__lactate,0.03697870121406908,0.01030153032253513
+No prior LR,num__map_mean,0.08250189567105867,0.0028464919350403043
+No prior LR,num__pressor,0.04858682420993622,0.002948304529437197
+No prior LR,num__ventilation,0.07859324089981524,0.0012576678139266848
+No prior LR,num__urine6_ml,0.23260009831602585,0.008525047645672397
+No prior LR,num__urine24_hours,0.4628315285113386,0.0073407306176135586
+No prior LR,num__net24_ml,0.037990357509561576,0.0023694362965836976
+No prior LR,num__creat_delta24,0.04722006707517647,9.730658801106705e-05
+No prior LR,num__chloride_delta48,0.042746895226382566,0.006081461922613318
+No prior LR,num__lactate_delta6,0.19996095702390462,0.01264246650865803
+No prior LR,num__missingindicator_prior_chloride,0.07848380415115333,0.0014702596339361898
+No prior LR,num__missingindicator_lactate,0.08717353771763432,0.003881884683599719
+No prior LR,num__missingindicator_urine6_ml,0.149290603402668,0.004365625098829648
+No prior LR,num__missingindicator_net24_ml,0.0080411941588707,9.956270484203818e-05
+No prior LR,num__missingindicator_lactate_delta6,0.22572523075725925,0.002212227463781686
+No prior LR,cat__gender_F,0.06270323557702713,0.0049258781081724665
+No prior LR,cat__gender_M,0.06270323557702702,0.004925878108172805
+No prior LR,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.659522178025089,0.15489576168823238
+No prior LR,cat__decision_careunit_Coronary Care Unit (CCU),0.3858687200463175,0.14312342350479543
+No prior LR,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.39222324449631607,0.031165253829906373
+No prior LR,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.1906120614643262,0.03987846218889004
+No prior LR,cat__decision_careunit_Neuro Intermediate,0.08006407690254358,0.19611842528825893
+No prior LR,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.09305574772399948,0.08015141955808781
+No prior LR,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.15171578188901888,0.04648781095805878
+No prior LR,cat__decision_careunit_Trauma SICU (TSICU),0.0325121804540077,0.039403911359366287
+No prior LR,cat__anchor_year_group_2008 - 2010,0.04329095636406295,0.008849400998042102
+No prior LR,cat__anchor_year_group_2011 - 2013,0.1239113489200856,0.004009449968547164
+No prior LR,cat__anchor_year_group_2014 - 2016,0.20587312316724843,0.02732650281133051
+No prior LR,cat__anchor_year_group_2017 - 2019,0.0434304789417118,0.002237322630021295
+No prior LR,cat__anchor_year_group_2020 - 2022,0.03835977798005101,0.04174091442792187
+Absolute chloride >=110,num__age,0.04382292366957106,0.0095085382283271
+Absolute chloride >=110,num__chloride,0.28178991947879517,0.007100512155796141
+Absolute chloride >=110,num__prior_chloride,0.23991252301519458,0.010859222710070709
+Absolute chloride >=110,num__ns_ml,0.3516832152675977,0.010011868642383669
+Absolute chloride >=110,num__lr_ml,0.7471594272432518,0.053864863538651636
+Absolute chloride >=110,num__sofa_score,0.062154259274710966,0.006324293066230593
+Absolute chloride >=110,num__creat,0.16957862996302747,0.018175919142710783
+Absolute chloride >=110,num__low7,0.14533234294206362,0.008144012435496274
+Absolute chloride >=110,num__aki_stage_creat,0.038948618098837255,0.001009710989218736
+Absolute chloride >=110,num__bicarbonate,0.09484951031444054,0.018587559699835304
+Absolute chloride >=110,num__lactate,0.10013913988309402,0.017592397797826176
+Absolute chloride >=110,num__map_mean,0.16893189659543922,0.007673158047728549
+Absolute chloride >=110,num__pressor,0.07067320079143403,0.0017808824868166353
+Absolute chloride >=110,num__ventilation,0.21914309282211275,0.0065105556306744574
+Absolute chloride >=110,num__urine6_ml,0.23982156738469956,0.008407505746449809
+Absolute chloride >=110,num__urine24_hours,0.20164203896476512,0.008549457737278847
+Absolute chloride >=110,num__net24_ml,0.0639727997729763,0.01834918825928115
+Absolute chloride >=110,num__creat_delta24,0.027617998165440662,0.0032840972396111206
+Absolute chloride >=110,num__chloride_delta48,0.026702458926708906,0.008810304238664999
+Absolute chloride >=110,num__lactate_delta6,0.09417705739058335,0.004797994535679355
+Absolute chloride >=110,num__missingindicator_prior_chloride,0.019963244428893755,0.0023318838077731065
+Absolute chloride >=110,num__missingindicator_lactate,0.20019240802587823,0.007682683538217912
+Absolute chloride >=110,num__missingindicator_urine6_ml,0.029234079964424953,0.002228876553295843
+Absolute chloride >=110,num__missingindicator_net24_ml,0.031965176394433,0.009141313276882232
+Absolute chloride >=110,num__missingindicator_lactate_delta6,0.0763261164570411,0.011377442726534627
+Absolute chloride >=110,cat__gender_F,0.030948523525522194,0.0074510679654393305
+Absolute chloride >=110,cat__gender_M,0.030948523525522194,0.007451067965439218
+Absolute chloride >=110,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.33657952952471704,0.07564361660207788
+Absolute chloride >=110,cat__decision_careunit_Coronary Care Unit (CCU),0.2321035412742638,0.0709393365619403
+Absolute chloride >=110,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.3491266414952328,0.02873741931642126
+Absolute chloride >=110,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.34603707948560336,0.07800187085474393
+Absolute chloride >=110,cat__decision_careunit_Neuro Intermediate,0.03196517639443295,0.0022757909790444507
+Absolute chloride >=110,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.08163237788357892,0.06333769021542568
+Absolute chloride >=110,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.18486315534619796,0.05030775463408571
+Absolute chloride >=110,cat__decision_careunit_Trauma SICU (TSICU),0.005484538598286135,0.015878092472541475
+Absolute chloride >=110,cat__anchor_year_group_2008 - 2010,0.16616285876962386,0.028611798669767503
+Absolute chloride >=110,cat__anchor_year_group_2011 - 2013,0.0136211870715062,0.0005087526078753868
+Absolute chloride >=110,cat__anchor_year_group_2014 - 2016,0.17181884692786176,0.02598148363886861
+Absolute chloride >=110,cat__anchor_year_group_2017 - 2019,0.04467102673344224,0.012727590434980519
+Absolute chloride >=110,cat__anchor_year_group_2020 - 2022,0.07649786792527626,0.0006554041887399368
+Complete baseline urine window,num__age,0.055604643378325304,0.03275486735911738
+Complete baseline urine window,num__chloride,0.6799393604889594,0.07487825532862963
+Complete baseline urine window,num__prior_chloride,0.5262031521767611,0.05204072432199131
+Complete baseline urine window,num__ns_ml,0.5547686606196879,0.07753368471348453
+Complete baseline urine window,num__lr_ml,0.8282728102246867,0.16247737597898423
+Complete baseline urine window,num__sofa_score,0.14844430105697137,0.010289748678633661
+Complete baseline urine window,num__creat,0.29174925739465196,0.020205676687480228
+Complete baseline urine window,num__low7,0.30713068886918926,0.057519480448248526
+Complete baseline urine window,num__aki_stage_creat,0.1357618953844489,0.0380954244812881
+Complete baseline urine window,num__bicarbonate,0.17077310703090473,0.02790852843377371
+Complete baseline urine window,num__lactate,0.24093660486099563,0.013166758833615802
+Complete baseline urine window,num__map_mean,0.11225363954415424,0.02496252268333524
+Complete baseline urine window,num__pressor,0.29970960586209583,0.02854221958438535
+Complete baseline urine window,num__ventilation,0.25467176939296704,0.05366061848581341
+Complete baseline urine window,num__urine6_ml,0.33088786746273224,0.01735801084947805
+Complete baseline urine window,num__urine24_hours,0.32795083170482164,0.03344197859175403
+Complete baseline urine window,num__net24_ml,0.1416241050230735,0.04136466262110596
+Complete baseline urine window,num__creat_delta24,0.02419763560651411,0.012520399630362954
+Complete baseline urine window,num__chloride_delta48,0.21311348496128502,0.0625734342642422
+Complete baseline urine window,num__lactate_delta6,0.13568448090692783,0.01674583923365804
+Complete baseline urine window,num__missingindicator_lactate,0.18997330438012117,0.019659605967526472
+Complete baseline urine window,num__missingindicator_urine6_ml,0.3779644730092273,0.02580127221801219
+Complete baseline urine window,num__missingindicator_lactate_delta6,0.15487341033952567,0.018220791118877006
+Complete baseline urine window,cat__gender_F,0.07606524124557379,0.09202142008463744
+Complete baseline urine window,cat__gender_M,0.07606524124557379,0.09202142008463778
+Complete baseline urine window,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.4656239304889757,0.2124805015258307
+Complete baseline urine window,cat__decision_careunit_Coronary Care Unit (CCU),0.5345224838248488,0.21737834828501204
+Complete baseline urine window,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.34676418323264896,0.13101251209997095
+Complete baseline urine window,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.40858910767887435,0.27426912311031715
+Complete baseline urine window,cat__decision_careunit_Neuro Intermediate,0.2626128657194452,0.01459693701225415
+Complete baseline urine window,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.016952805508227795,0.1814737586414836
+Complete baseline urine window,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.3689107660797627,0.14822330600386893
+Complete baseline urine window,cat__decision_careunit_Trauma SICU (TSICU),0.12501217499529416,0.04790716001637069
+Complete baseline urine window,cat__anchor_year_group_2008 - 2010,0.0172529227309271,0.018853115387316415
+Complete baseline urine window,cat__anchor_year_group_2011 - 2013,0.4148192646539862,0.13713596724073604
+Complete baseline urine window,cat__anchor_year_group_2014 - 2016,0.11262372281364919,0.02089825229977431
+Complete baseline urine window,cat__anchor_year_group_2017 - 2019,0.3767190933711225,0.24793183729236692
+Complete baseline urine window,cat__anchor_year_group_2020 - 2022,0.07706253379012232,0.15842251449895742
+Unpenalized propensity model,num__age,0.10640443973741376,9.015313348619837e-05
+Unpenalized propensity model,num__chloride,0.4073372046845031,6.000004304572195e-05
+Unpenalized propensity model,num__prior_chloride,0.3814577875046175,0.00021601152225394777
+Unpenalized propensity model,num__ns_ml,0.3625242808358737,0.00010081470888739095
+Unpenalized propensity model,num__lr_ml,0.7065111455596951,2.2825758337239896e-05
+Unpenalized propensity model,num__sofa_score,0.03930953284061131,6.234199244854265e-05
+Unpenalized propensity model,num__creat,0.044439979236299894,0.00021841509704286137
+Unpenalized propensity model,num__low7,0.012687264321050658,0.00034203636336227293
+Unpenalized propensity model,num__aki_stage_creat,0.03511623985247935,0.00030346511679916967
+Unpenalized propensity model,num__bicarbonate,0.24216851192041172,0.00024950108279149464
+Unpenalized propensity model,num__lactate,0.030828990845009646,1.780772805248612e-05
+Unpenalized propensity model,num__map_mean,0.011337046485663218,0.00010836952668255599
+Unpenalized propensity model,num__pressor,0.06372761335624563,0.00028263394834419973
+Unpenalized propensity model,num__ventilation,0.144349584804715,0.00013365737127316396
+Unpenalized propensity model,num__urine6_ml,0.1274086703252092,0.0001879811992106743
+Unpenalized propensity model,num__urine24_hours,0.24950334735988317,4.405327318611083e-05
+Unpenalized propensity model,num__net24_ml,0.14842636221909428,0.00013569716310605156
+Unpenalized propensity model,num__creat_delta24,0.07748204183812776,8.866868371210916e-06
+Unpenalized propensity model,num__chloride_delta48,0.03609502514198394,0.00030138458837170837
+Unpenalized propensity model,num__lactate_delta6,0.04452521968360318,0.0001379535723277299
+Unpenalized propensity model,num__missingindicator_prior_chloride,0.025463276496101493,0.00013069166068237158
+Unpenalized propensity model,num__missingindicator_lactate,0.19802631334998017,0.00010653342013598307
+Unpenalized propensity model,num__missingindicator_urine6_ml,0.004518413673252199,0.00020325691480759873
+Unpenalized propensity model,num__missingindicator_net24_ml,0.02205643897692765,3.6725004333698444e-05
+Unpenalized propensity model,num__missingindicator_lactate_delta6,0.18663390712576247,5.545255287885565e-05
+Unpenalized propensity model,cat__gender_F,0.015685544056361158,8.964355569017182e-05
+Unpenalized propensity model,cat__gender_M,0.015685544056361047,8.964355568972292e-05
+Unpenalized propensity model,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.454421394393661,0.0007013833355561155
+Unpenalized propensity model,cat__decision_careunit_Coronary Care Unit (CCU),0.2640231100003964,0.000628566614652049
+Unpenalized propensity model,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.32711572670216166,0.0006219851229919656
+Unpenalized propensity model,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.19667116926151543,0.00023172964459829766
+Unpenalized propensity model,cat__decision_careunit_Neuro Intermediate,0.044235746940965506,0.005642156428785886
+Unpenalized propensity model,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.14373522840392713,0.0010223681745947495
+Unpenalized propensity model,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.13077543984735057,0.0008694182323770024
+Unpenalized propensity model,cat__decision_careunit_Trauma SICU (TSICU),0.05417115237008426,0.0010461680701068683
+Unpenalized propensity model,cat__anchor_year_group_2008 - 2010,0.15620769210671462,0.0004046970205512798
+Unpenalized propensity model,cat__anchor_year_group_2011 - 2013,0.025706382761903818,0.00045003338226464747
+Unpenalized propensity model,cat__anchor_year_group_2014 - 2016,0.20289520273013667,0.00031646042712967675
+Unpenalized propensity model,cat__anchor_year_group_2017 - 2019,0.017257360699500505,0.0007774845019158328
+Unpenalized propensity model,cat__anchor_year_group_2020 - 2022,0.031158723913900968,0.0005475251884263561
+Hospital creatinine or recorded KRT,num__age,0.10640443973741376,0.002390511384604971
+Hospital creatinine or recorded KRT,num__chloride,0.4073372046845031,0.0025423126315844004
+Hospital creatinine or recorded KRT,num__prior_chloride,0.3814577875046175,0.009143261387269376
+Hospital creatinine or recorded KRT,num__ns_ml,0.3625242808358737,0.008091393735237323
+Hospital creatinine or recorded KRT,num__lr_ml,0.7065111455596951,0.020662295006527397
+Hospital creatinine or recorded KRT,num__sofa_score,0.03930953284061131,0.0018213440318069099
+Hospital creatinine or recorded KRT,num__creat,0.044439979236299894,0.007467366426188479
+Hospital creatinine or recorded KRT,num__low7,0.012687264321050658,0.002393812536359109
+Hospital creatinine or recorded KRT,num__aki_stage_creat,0.03511623985247935,0.002700961650991682
+Hospital creatinine or recorded KRT,num__bicarbonate,0.24216851192041172,0.006119194922131774
+Hospital creatinine or recorded KRT,num__lactate,0.030828990845009646,0.004570616288586972
+Hospital creatinine or recorded KRT,num__map_mean,0.011337046485663218,0.00047501779460750116
+Hospital creatinine or recorded KRT,num__pressor,0.06372761335624563,0.0010657812845521661
+Hospital creatinine or recorded KRT,num__ventilation,0.144349584804715,8.581787841266664e-05
+Hospital creatinine or recorded KRT,num__urine6_ml,0.1274086703252092,0.0010514899621084143
+Hospital creatinine or recorded KRT,num__urine24_hours,0.24950334735988317,0.004894258394154591
+Hospital creatinine or recorded KRT,num__net24_ml,0.14842636221909428,0.0032313160821100064
+Hospital creatinine or recorded KRT,num__creat_delta24,0.07748204183812776,0.003645256479832415
+Hospital creatinine or recorded KRT,num__chloride_delta48,0.03609502514198394,0.005615969168197907
+Hospital creatinine or recorded KRT,num__lactate_delta6,0.04452521968360318,0.0048805504010625824
+Hospital creatinine or recorded KRT,num__missingindicator_prior_chloride,0.025463276496101493,0.0012388843230411984
+Hospital creatinine or recorded KRT,num__missingindicator_lactate,0.19802631334998017,0.0015106267837437114
+Hospital creatinine or recorded KRT,num__missingindicator_urine6_ml,0.004518413673252199,0.0022907951465066826
+Hospital creatinine or recorded KRT,num__missingindicator_net24_ml,0.02205643897692765,0.0007989651678862946
+Hospital creatinine or recorded KRT,num__missingindicator_lactate_delta6,0.18663390712576247,4.168543261392565e-05
+Hospital creatinine or recorded KRT,cat__gender_F,0.015685544056361158,0.0006230825916073257
+Hospital creatinine or recorded KRT,cat__gender_M,0.015685544056361047,0.0006230825916079992
+Hospital creatinine or recorded KRT,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.454421394393661,0.046370342688867736
+Hospital creatinine or recorded KRT,cat__decision_careunit_Coronary Care Unit (CCU),0.2640231100003964,0.05523933242830802
+Hospital creatinine or recorded KRT,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.32711572670216166,0.0061085397019809565
+Hospital creatinine or recorded KRT,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.19667116926151543,0.023227129056510084
+Hospital creatinine or recorded KRT,cat__decision_careunit_Neuro Intermediate,0.044235746940965506,0.034323276683650115
+Hospital creatinine or recorded KRT,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.14373522840392713,0.06272856379129027
+Hospital creatinine or recorded KRT,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.13077543984735057,0.01585822451674177
+Hospital creatinine or recorded KRT,cat__decision_careunit_Trauma SICU (TSICU),0.05417115237008426,0.005518614382475744
+Hospital creatinine or recorded KRT,cat__anchor_year_group_2008 - 2010,0.15620769210671462,0.014327784243671687
+Hospital creatinine or recorded KRT,cat__anchor_year_group_2011 - 2013,0.025706382761903818,0.0030361124021258284
+Hospital creatinine or recorded KRT,cat__anchor_year_group_2014 - 2016,0.20289520273013667,0.016452952246875485
+Hospital creatinine or recorded KRT,cat__anchor_year_group_2017 - 2019,0.017257360699500505,0.011727633381702275
+Hospital creatinine or recorded KRT,cat__anchor_year_group_2020 - 2022,0.031158723913900968,0.023691427719404544
+Procedure-only KRT component,num__age,0.10640443973741376,0.002390511384604971
+Procedure-only KRT component,num__chloride,0.4073372046845031,0.0025423126315844004
+Procedure-only KRT component,num__prior_chloride,0.3814577875046175,0.009143261387269376
+Procedure-only KRT component,num__ns_ml,0.3625242808358737,0.008091393735237323
+Procedure-only KRT component,num__lr_ml,0.7065111455596951,0.020662295006527397
+Procedure-only KRT component,num__sofa_score,0.03930953284061131,0.0018213440318069099
+Procedure-only KRT component,num__creat,0.044439979236299894,0.007467366426188479
+Procedure-only KRT component,num__low7,0.012687264321050658,0.002393812536359109
+Procedure-only KRT component,num__aki_stage_creat,0.03511623985247935,0.002700961650991682
+Procedure-only KRT component,num__bicarbonate,0.24216851192041172,0.006119194922131774
+Procedure-only KRT component,num__lactate,0.030828990845009646,0.004570616288586972
+Procedure-only KRT component,num__map_mean,0.011337046485663218,0.00047501779460750116
+Procedure-only KRT component,num__pressor,0.06372761335624563,0.0010657812845521661
+Procedure-only KRT component,num__ventilation,0.144349584804715,8.581787841266664e-05
+Procedure-only KRT component,num__urine6_ml,0.1274086703252092,0.0010514899621084143
+Procedure-only KRT component,num__urine24_hours,0.24950334735988317,0.004894258394154591
+Procedure-only KRT component,num__net24_ml,0.14842636221909428,0.0032313160821100064
+Procedure-only KRT component,num__creat_delta24,0.07748204183812776,0.003645256479832415
+Procedure-only KRT component,num__chloride_delta48,0.03609502514198394,0.005615969168197907
+Procedure-only KRT component,num__lactate_delta6,0.04452521968360318,0.0048805504010625824
+Procedure-only KRT component,num__missingindicator_prior_chloride,0.025463276496101493,0.0012388843230411984
+Procedure-only KRT component,num__missingindicator_lactate,0.19802631334998017,0.0015106267837437114
+Procedure-only KRT component,num__missingindicator_urine6_ml,0.004518413673252199,0.0022907951465066826
+Procedure-only KRT component,num__missingindicator_net24_ml,0.02205643897692765,0.0007989651678862946
+Procedure-only KRT component,num__missingindicator_lactate_delta6,0.18663390712576247,4.168543261392565e-05
+Procedure-only KRT component,cat__gender_F,0.015685544056361158,0.0006230825916073257
+Procedure-only KRT component,cat__gender_M,0.015685544056361047,0.0006230825916079992
+Procedure-only KRT component,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.454421394393661,0.046370342688867736
+Procedure-only KRT component,cat__decision_careunit_Coronary Care Unit (CCU),0.2640231100003964,0.05523933242830802
+Procedure-only KRT component,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.32711572670216166,0.0061085397019809565
+Procedure-only KRT component,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.19667116926151543,0.023227129056510084
+Procedure-only KRT component,cat__decision_careunit_Neuro Intermediate,0.044235746940965506,0.034323276683650115
+Procedure-only KRT component,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.14373522840392713,0.06272856379129027
+Procedure-only KRT component,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.13077543984735057,0.01585822451674177
+Procedure-only KRT component,cat__decision_careunit_Trauma SICU (TSICU),0.05417115237008426,0.005518614382475744
+Procedure-only KRT component,cat__anchor_year_group_2008 - 2010,0.15620769210671462,0.014327784243671687
+Procedure-only KRT component,cat__anchor_year_group_2011 - 2013,0.025706382761903818,0.0030361124021258284
+Procedure-only KRT component,cat__anchor_year_group_2014 - 2016,0.20289520273013667,0.016452952246875485
+Procedure-only KRT component,cat__anchor_year_group_2017 - 2019,0.017257360699500505,0.011727633381702275
+Procedure-only KRT component,cat__anchor_year_group_2020 - 2022,0.031158723913900968,0.023691427719404544
+Date-resolved mortality,num__age,0.10640443973741376,0.002390511384604971
+Date-resolved mortality,num__chloride,0.4073372046845031,0.0025423126315844004
+Date-resolved mortality,num__prior_chloride,0.3814577875046175,0.009143261387269376
+Date-resolved mortality,num__ns_ml,0.3625242808358737,0.008091393735237323
+Date-resolved mortality,num__lr_ml,0.7065111455596951,0.020662295006527397
+Date-resolved mortality,num__sofa_score,0.03930953284061131,0.0018213440318069099
+Date-resolved mortality,num__creat,0.044439979236299894,0.007467366426188479
+Date-resolved mortality,num__low7,0.012687264321050658,0.002393812536359109
+Date-resolved mortality,num__aki_stage_creat,0.03511623985247935,0.002700961650991682
+Date-resolved mortality,num__bicarbonate,0.24216851192041172,0.006119194922131774
+Date-resolved mortality,num__lactate,0.030828990845009646,0.004570616288586972
+Date-resolved mortality,num__map_mean,0.011337046485663218,0.00047501779460750116
+Date-resolved mortality,num__pressor,0.06372761335624563,0.0010657812845521661
+Date-resolved mortality,num__ventilation,0.144349584804715,8.581787841266664e-05
+Date-resolved mortality,num__urine6_ml,0.1274086703252092,0.0010514899621084143
+Date-resolved mortality,num__urine24_hours,0.24950334735988317,0.004894258394154591
+Date-resolved mortality,num__net24_ml,0.14842636221909428,0.0032313160821100064
+Date-resolved mortality,num__creat_delta24,0.07748204183812776,0.003645256479832415
+Date-resolved mortality,num__chloride_delta48,0.03609502514198394,0.005615969168197907
+Date-resolved mortality,num__lactate_delta6,0.04452521968360318,0.0048805504010625824
+Date-resolved mortality,num__missingindicator_prior_chloride,0.025463276496101493,0.0012388843230411984
+Date-resolved mortality,num__missingindicator_lactate,0.19802631334998017,0.0015106267837437114
+Date-resolved mortality,num__missingindicator_urine6_ml,0.004518413673252199,0.0022907951465066826
+Date-resolved mortality,num__missingindicator_net24_ml,0.02205643897692765,0.0007989651678862946
+Date-resolved mortality,num__missingindicator_lactate_delta6,0.18663390712576247,4.168543261392565e-05
+Date-resolved mortality,cat__gender_F,0.015685544056361158,0.0006230825916073257
+Date-resolved mortality,cat__gender_M,0.015685544056361047,0.0006230825916079992
+Date-resolved mortality,cat__decision_careunit_Cardiac Vascular Intensive Care Unit (CVICU),0.454421394393661,0.046370342688867736
+Date-resolved mortality,cat__decision_careunit_Coronary Care Unit (CCU),0.2640231100003964,0.05523933242830802
+Date-resolved mortality,cat__decision_careunit_Medical Intensive Care Unit (MICU),0.32711572670216166,0.0061085397019809565
+Date-resolved mortality,cat__decision_careunit_Medical/Surgical Intensive Care Unit (MICU/SICU),0.19667116926151543,0.023227129056510084
+Date-resolved mortality,cat__decision_careunit_Neuro Intermediate,0.044235746940965506,0.034323276683650115
+Date-resolved mortality,cat__decision_careunit_Neuro Surgical Intensive Care Unit (Neuro SICU),0.14373522840392713,0.06272856379129027
+Date-resolved mortality,cat__decision_careunit_Surgical Intensive Care Unit (SICU),0.13077543984735057,0.01585822451674177
+Date-resolved mortality,cat__decision_careunit_Trauma SICU (TSICU),0.05417115237008426,0.005518614382475744
+Date-resolved mortality,cat__anchor_year_group_2008 - 2010,0.15620769210671462,0.014327784243671687
+Date-resolved mortality,cat__anchor_year_group_2011 - 2013,0.025706382761903818,0.0030361124021258284
+Date-resolved mortality,cat__anchor_year_group_2014 - 2016,0.20289520273013667,0.016452952246875485
+Date-resolved mortality,cat__anchor_year_group_2017 - 2019,0.017257360699500505,0.011727633381702275
+Date-resolved mortality,cat__anchor_year_group_2020 - 2022,0.031158723913900968,0.023691427719404544

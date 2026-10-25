@@ -1,0 +1,11 @@
+{
+  "analysis": "Six-hour landmark",
+  "n": 527,
+  "lr_n": 175,
+  "ns_n": 352,
+  "ess_lr": 139.54013659145403,
+  "ess_ns": 219.84742798896488,
+  "max_smd": 0.06019047356628007,
+  "bootstrap_success": 500,
+  "bootstrap_errors": []
+}

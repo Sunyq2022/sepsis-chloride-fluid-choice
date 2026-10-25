@@ -1,0 +1,5 @@
+window,arm,records,patients,patients_no_identified_prior_LR
+All pre-t0,NS,203,185,146
+All pre-t0,LR,127,113,46
+Recorded in 24h before trigger,NS,170,156,124
+Recorded in 24h before trigger,LR,116,105,41

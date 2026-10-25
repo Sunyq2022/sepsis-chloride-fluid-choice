@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-24",
+  "frozen_seed": 20260909,
+  "bootstrap": 500,
+  "new_analysis": "Six-hour landmark, retain patients alive, in index ICU and composite-event-free at six hours; follow to original day 7 (162 subsequent hours). Refit original baseline PS in landmark sample and in each patient bootstrap.",
+  "interpretation": "Post-treatment selection; sensitivity analysis only; neither early-event removal nor timing audit proves exchangeability.",
+  "unchanged": [
+    "cohort definition",
+    "original main endpoint",
+    "original main results",
+    "original scripts",
+    "original seed"
+  ],
+  "additional_components": [
+    "creatinine3",
+    "KRT"
+  ],
+  "prior_LR_window": "24 hours before chloride trigger; not confirmed LR-naive"
+}

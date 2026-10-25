@@ -1,0 +1,15 @@
+step,n,remaining
+Adult first ICU source,65366,
+Sepsis source,27124,
+Eligible chloride measurement,26980,
+First chloride trigger,12287,
+Prior saline at least 500mL,4539,
+"First documented bolus of either fluid, any size",863,
+Exclude ambiguous simultaneous fluids,1,862.0
+Exclude impossible alive or ICU chronology,7,855.0
+Exclude records without valid administration timing,0,855.0
+Exclude unavailable baseline creatinine/comparator,165,690.0
+Exclude documented prior creatinine stage 3,50,640.0
+Exclude documented prior urine-output stage 3,49,591.0
+Exclude prior treatment-supported KRT,34,557.0
+Exclude prior documented ESRD/dialysis dependence,5,552.0

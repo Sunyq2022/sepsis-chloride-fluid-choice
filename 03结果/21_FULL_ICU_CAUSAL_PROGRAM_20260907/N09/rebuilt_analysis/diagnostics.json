@@ -1,0 +1,101 @@
+[
+  {
+    "analysis": "Main",
+    "n": 552,
+    "lr_n": 181,
+    "ns_n": 371,
+    "ess_lr": 147.58225641833877,
+    "ess_ns": 237.25362082109905,
+    "max_smd": 0.06272856379129027,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Bolus within 2h",
+    "n": 373,
+    "lr_n": 125,
+    "ns_n": 248,
+    "ess_lr": 99.07652569393692,
+    "ess_ns": 150.52096299696024,
+    "max_smd": 0.09252764360573532,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "No prior LR",
+    "n": 386,
+    "lr_n": 73,
+    "ns_n": 313,
+    "ess_lr": 65.83353795372862,
+    "ess_ns": 177.69536960948832,
+    "max_smd": 0.19611842528825893,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Absolute chloride >=110",
+    "n": 302,
+    "lr_n": 122,
+    "ns_n": 180,
+    "ess_lr": 90.11792005790649,
+    "ess_ns": 117.5549008432512,
+    "max_smd": 0.07800187085474393,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Complete baseline urine window",
+    "n": 126,
+    "lr_n": 30,
+    "ns_n": 96,
+    "ess_lr": 21.837378535514116,
+    "ess_ns": 43.638598515425635,
+    "max_smd": 0.27426912311031715,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Unpenalized propensity model",
+    "n": 552,
+    "lr_n": 181,
+    "ns_n": 371,
+    "ess_lr": 144.78326128278277,
+    "ess_ns": 224.59093154934175,
+    "max_smd": 0.005642156428785886,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Hospital creatinine or recorded KRT",
+    "n": 552,
+    "lr_n": 181,
+    "ns_n": 371,
+    "ess_lr": 147.58225641833877,
+    "ess_ns": 237.25362082109905,
+    "max_smd": 0.06272856379129027,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Procedure-only KRT component",
+    "n": 552,
+    "lr_n": 181,
+    "ns_n": 371,
+    "ess_lr": 147.58225641833877,
+    "ess_ns": 237.25362082109905,
+    "max_smd": 0.06272856379129027,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Date-resolved mortality",
+    "n": 552,
+    "lr_n": 181,
+    "ns_n": 371,
+    "ess_lr": 147.58225641833877,
+    "ess_ns": 237.25362082109905,
+    "max_smd": 0.06272856379129027,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  }
+]
