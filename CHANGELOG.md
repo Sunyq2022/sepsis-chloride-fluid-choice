@@ -1,5 +1,10 @@
 # Change log
 
+## 2026-10-25 — Participant flow documentation
+
+Added a GitHub-rendered participant flowchart, sequential exclusion table, source links and six-hour landmark selection accounting. Existing code, estimates and the revision-2026-10-25 tag are unchanged.
+
+
 ## revision-2026-10-25
 
 Initial public deposition of retained extraction/analysis code and aggregate results. No analysis rerun for deposition. Overall cohort: 552 (371 NS, 181 LR). Saline minus LR kidney-composite risk difference: 6.35 percentage points (95% CI 1.10 to 12.08). No-prior-LR and six-hour-landmark intervals include zero. These associations do not establish causal protection.

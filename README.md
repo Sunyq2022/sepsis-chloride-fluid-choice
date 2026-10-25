@@ -40,3 +40,7 @@ This repository is a versioned research record, not a claim that the analyses ar
 ## Licensing
 
 No new blanket reuse license is assigned to project-authored code in this deposit. Public availability alone does not grant unrestricted reuse. MIMIC-derived SQL retains its upstream licensing; see THIRD_PARTY_NOTICES.md. Data licensing and credentialed-access conditions are separate; no patient-level or source clinical data are distributed.
+
+## Participant selection
+
+See the [participant flowchart and sequential exclusion table](docs/participant_flow.md), including the distinction between the 552-person overall cohort and the 527-person six-hour landmark. All counts reproduce existing aggregate outputs.
