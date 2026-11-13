@@ -1,0 +1,10 @@
+{
+  "historical_n": 552,
+  "prior_dialysis_new_exclusions": 0,
+  "late_prebolus_stage3_exclusions": 2,
+  "overlap_exclusions": 0,
+  "corrected_n": 550,
+  "prior_codes": "{}",
+  "index_diagnosis_patients": 5,
+  "index_diagnosis_patients_retained": 5
+}

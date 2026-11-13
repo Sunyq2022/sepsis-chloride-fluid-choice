@@ -1,0 +1,272 @@
+{
+  "status": "SOURCE_CONCEPTS_BUILT_NOT_ANALYSIS_COHORT",
+  "tables": {
+    "hosp.patients": {
+      "rows": 364627,
+      "source_bytes": 2835586,
+      "source_mtime_ns": 1738583671076234400,
+      "seconds": 0.73,
+      "filter": ""
+    },
+    "hosp.admissions": {
+      "rows": 546028,
+      "source_bytes": 19928140,
+      "source_mtime_ns": 1738583641063032600,
+      "seconds": 1.74,
+      "filter": ""
+    },
+    "icu.icustays": {
+      "rows": 94458,
+      "source_bytes": 3342355,
+      "source_mtime_ns": 1738583712106290600,
+      "seconds": 0.38,
+      "filter": ""
+    },
+    "hosp.diagnoses_icd": {
+      "rows": 1110870,
+      "source_bytes": 33564802,
+      "source_mtime_ns": 1738583641385113200,
+      "seconds": 1.8,
+      "filter": " WHERE hadm_id IN (SELECT hadm_id FROM study.first_icu)"
+    },
+    "hosp.labevents": {
+      "rows": 51251689,
+      "source_bytes": 2592909134,
+      "source_mtime_ns": 1738583669950355500,
+      "seconds": 115.71,
+      "filter": " WHERE subject_id IN (SELECT subject_id FROM study.first_icu) AND itemid IN (21600,220045,220050,220051,220052,220179,220180,220181,220210,220277,220339,220621,220739,221289,221653,221662,221906,222315,223761,223762,223834,223835,223848,223849,223900,223901,224135,224139,224144,224145,224146,224149,224150,224151,224152,224153,224154,224191,224270,224404,224406,224639,224642,224684,224685,224686,224687,224688,224689,224690,224691,224696,224700,225183,225309,225310,225312,225323,225436,225441,225664,225725,225740,225776,225802,225803,225805,225806,225807,225809,225810,225951,225952,225953,225954,225955,225956,225958,225959,225961,225963,225965,225976,225977,226118,226457,226499,226512,226537,226557,226558,226559,226560,226561,226563,226564,226565,226567,226584,226732,227124,227287,227290,227357,227438,227488,227489,227525,227536,227582,227638,227639,227640,227753,228004,228005,228006,229314,50801,50802,50803,50804,50805,50806,50807,50808,50809,50810,50811,50813,50814,50815,50816,50817,50818,50819,50820,50821,50822,50823,50824,50825,50861,50862,50863,50867,50868,50878,50882,50883,50884,50885,50893,50902,50910,50911,50912,50927,50930,50931,50954,50971,50976,50983,51006,51221,51222,51248,51249,51250,51265,51277,51279,51301,52033,52159)"
+    },
+    "hosp.microbiologyevents": {
+      "rows": 617700,
+      "source_bytes": 117644075,
+      "source_mtime_ns": 1738583670702195600,
+      "seconds": 5.23,
+      "filter": " WHERE hadm_id IN (SELECT hadm_id FROM study.first_icu)"
+    },
+    "hosp.prescriptions": {
+      "rows": 6425052,
+      "source_bytes": 606298611,
+      "source_mtime_ns": 1738583684199261100,
+      "seconds": 26.41,
+      "filter": " WHERE hadm_id IN (SELECT hadm_id FROM study.first_icu)"
+    },
+    "icu.chartevents": {
+      "rows": 56613200,
+      "source_bytes": 3502392765,
+      "source_mtime_ns": 1738583711484474300,
+      "seconds": 166.37,
+      "filter": " WHERE stay_id IN (SELECT stay_id FROM study.first_icu) AND itemid IN (21600,220045,220050,220051,220052,220179,220180,220181,220210,220277,220339,220621,220739,221289,221653,221662,221906,222315,223761,223762,223834,223835,223848,223849,223900,223901,224135,224139,224144,224145,224146,224149,224150,224151,224152,224153,224154,224191,224270,224404,224406,224639,224642,224684,224685,224686,224687,224688,224689,224690,224691,224696,224700,225183,225309,225310,225312,225323,225436,225441,225664,225725,225740,225776,225802,225803,225805,225806,225807,225809,225810,225951,225952,225953,225954,225955,225956,225958,225959,225961,225963,225965,225976,225977,226118,226457,226499,226512,226537,226557,226558,226559,226560,226561,226563,226564,226565,226567,226584,226732,227124,227287,227290,227357,227438,227488,227489,227525,227536,227582,227638,227639,227640,227753,228004,228005,228006,229314,50801,50802,50803,50804,50805,50806,50807,50808,50809,50810,50811,50813,50814,50815,50816,50817,50818,50819,50820,50821,50822,50823,50824,50825,50861,50862,50863,50867,50868,50878,50882,50883,50884,50885,50893,50902,50910,50911,50912,50927,50930,50931,50954,50971,50976,50983,51006,51221,51222,51248,51249,51250,51265,51277,51279,51301,52033,52159)"
+    },
+    "icu.inputevents": {
+      "rows": 7510906,
+      "source_bytes": 401088206,
+      "source_mtime_ns": 1738583716996352600,
+      "seconds": 22.04,
+      "filter": " WHERE stay_id IN (SELECT stay_id FROM study.first_icu)"
+    },
+    "icu.outputevents": {
+      "rows": 3778112,
+      "source_bytes": 49307639,
+      "source_mtime_ns": 1738583717383598800,
+      "seconds": 2.62,
+      "filter": " WHERE stay_id IN (SELECT stay_id FROM study.first_icu)"
+    },
+    "icu.procedureevents": {
+      "rows": 580804,
+      "source_bytes": 24096834,
+      "source_mtime_ns": 1738583717596059600,
+      "seconds": 1.75,
+      "filter": " WHERE stay_id IN (SELECT stay_id FROM study.first_icu)"
+    }
+  },
+  "concepts": {
+    "bg": {
+      "sha256": "2a065d3311eee691c5bf3291dc397fc202c6ddc93aed92db1b52793e11130cef",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\bg.sql",
+      "rows": 635594,
+      "seconds": 5.64
+    },
+    "chemistry": {
+      "sha256": "6f509898b49735bb476fcf18986c35fae44c0a388b789cf14ce6df7d425dc640",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\chemistry.sql",
+      "rows": 2634299,
+      "seconds": 3.63
+    },
+    "complete_blood_count": {
+      "sha256": "d5de5c0f8df5d58a726526811240bb13bf775f1319acf1da24df14368995001a",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\complete_blood_count.sql",
+      "rows": 2335305,
+      "seconds": 2.64
+    },
+    "dobutamine": {
+      "sha256": "f514b7e2ade37032e98c51ba82bf592244d1f1d5384b63b541d455f957b33df0",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\medication\\dobutamine.sql",
+      "rows": 5683,
+      "seconds": 0.04
+    },
+    "dopamine": {
+      "sha256": "75284fe0209c7a19b0c859d11d2658e56385430bad38c9aaa75174667ea861ec",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\medication\\dopamine.sql",
+      "rows": 12546,
+      "seconds": 0.06
+    },
+    "enzyme": {
+      "sha256": "19372275662b2330963902cc19dd96b295d61d4db7145de52f7ee36ac9fdd927",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\enzyme.sql",
+      "rows": 1098621,
+      "seconds": 1.57
+    },
+    "epinephrine": {
+      "sha256": "b021cd639961440438faa0e0573363b35be10f3c2b9c8da041b79e1431d470a0",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\medication\\epinephrine.sql",
+      "rows": 20611,
+      "seconds": 0.08
+    },
+    "gcs": {
+      "sha256": "c9240ecf40b2fd6fd6844f209a1f493b73e899bbec2c872809affb5c353c7478",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\gcs.sql",
+      "rows": 1560315,
+      "seconds": 1.57
+    },
+    "icustay_times": {
+      "sha256": "8d13e38fac6cd0b106e025b0bedadd1069b2c6728b4b919e4a2ae8a21e783451",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\demographics\\icustay_times.sql",
+      "rows": 94458,
+      "seconds": 0.2
+    },
+    "icustay_hourly": {
+      "sha256": "d4613e4c8509387e98f38e7790853af5d131df49fc683e58a710d74d53171ed0",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\demographics\\icustay_hourly.sql",
+      "rows": 7079195,
+      "seconds": 0.71
+    },
+    "norepinephrine": {
+      "sha256": "4085001f87dcdeeccde5877eb0dd3cc9718c7a8aab2bb57c2a6ab41c063ffabd",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\medication\\norepinephrine.sql",
+      "rows": 285968,
+      "seconds": 0.23
+    },
+    "urine_output": {
+      "sha256": "bf9605e4ea7bcae0e8c44768ca1abce8a098ff3a0b44bfaffcbb2be157216611",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\urine_output.sql",
+      "rows": 2897273,
+      "seconds": 0.52
+    },
+    "weight_durations": {
+      "sha256": "c7116bdc932bc39e8b70aed98a7ada1f6a4a0cdd79ea4730aa3824340100c6c7",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\demographics\\weight_durations.sql",
+      "rows": 255853,
+      "seconds": 0.88
+    },
+    "urine_output_rate": {
+      "sha256": "a4b777efb97b3244e56a24ee38500793af89882d21c56ce1da06b71b136cad0f",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\urine_output_rate.sql",
+      "rows": 2896133,
+      "seconds": 5.82
+    },
+    "oxygen_delivery": {
+      "sha256": "0a381c174ec508f826f1aa02edcede89be2376c302a6580b3ddfe483cffe48e0",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\oxygen_delivery.sql",
+      "rows": 522897,
+      "seconds": 1.75
+    },
+    "ventilator_setting": {
+      "sha256": "6a6938a619d46d9be0ee6d2203e294abdda4b2782ecf1b5e90a3a393378e8dc7",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\ventilator_setting.sql",
+      "rows": 929986,
+      "seconds": 2.22
+    },
+    "ventilation": {
+      "sha256": "4171114e000030a542ea860413c2576e5937e3da278608fe7fb81e21c1fe1ba9",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\treatment\\ventilation.sql",
+      "rows": 97382,
+      "seconds": 1.5
+    },
+    "vitalsign": {
+      "sha256": "fb8c2060ae861dd90c6b342879f07c5629639cd8bf229b7a450062a380561a97",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\measurement\\vitalsign.sql",
+      "rows": 9011725,
+      "seconds": 11.12
+    },
+    "sofa": {
+      "sha256": "5af9c75bdaeb9342138a0fbc8cbef33b132508689e3ac492ab574af1c7ff05b0",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\score\\sofa.sql",
+      "rows": 5510771,
+      "seconds": 21.46
+    },
+    "antibiotic": {
+      "sha256": "b47bd6cddaccbcfa5b0a026fae84745482c31cfcf7f42cf634d1a6695ee3e3ba",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\medication\\antibiotic.sql",
+      "rows": 309020,
+      "seconds": 1.8
+    },
+    "suspicion_of_infection": {
+      "sha256": "c4daa52682fb38e19c34b7bf849b50ad02f6ca6dcb25012be8b81448508fc56b",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\sepsis\\suspicion_of_infection.sql",
+      "rows": 309020,
+      "seconds": 132.27
+    },
+    "sepsis3": {
+      "sha256": "0e2987fc09c37fc132b5faa2d234cd67775e669f94d3fc4f732f3f69b48fa616",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\sepsis\\sepsis3.sql",
+      "rows": 27124,
+      "seconds": 1.54
+    },
+    "crrt": {
+      "sha256": "f896c7e5037a7a2c6a12650c8b730eec20d2c033269f06ccc6885da71900f0ba",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\treatment\\crrt.sql",
+      "rows": 279214,
+      "seconds": 1.21
+    },
+    "kdigo_creatinine": {
+      "sha256": "fc97bc3e7a943fddc2a63b0fe28e444432a57a29ba392d5755198ea9b75056af",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\organfailure\\kdigo_creatinine.sql",
+      "rows": 811585,
+      "seconds": 1.39
+    },
+    "kdigo_uo": {
+      "sha256": "cd8decd3c1e05bfea316e64e8629504f713dfca903887ae1981d158c700466ce",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\organfailure\\kdigo_uo.sql",
+      "rows": 2897273,
+      "seconds": 2.7
+    },
+    "kdigo_stages": {
+      "sha256": "7e0e2c43b3204ae10f88cc11af2f40b0da0b04df7b23aea2d7d62f0d5fba3c62",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\organfailure\\kdigo_stages.sql",
+      "rows": 3798390,
+      "seconds": 3.72
+    },
+    "rrt": {
+      "sha256": "e91bc448776f1bde3979baa037983b86b6dfe7e2f68512ac69596188939b28f9",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\treatment\\rrt.sql",
+      "rows": 2386701,
+      "seconds": 3.09
+    },
+    "age": {
+      "sha256": "6316e9ce5f6a9b81f76fff1b891eb014287603e59e24e5704a59195819d06bfc",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\demographics\\age.sql",
+      "rows": 546028,
+      "seconds": 0.14
+    },
+    "charlson": {
+      "sha256": "ea5e68978bbf47b0798916486723baa4659562950d18515c2101340e83dd4f53",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\comorbidity\\charlson.sql",
+      "rows": 546028,
+      "seconds": 9.72
+    },
+    "vasopressin": {
+      "sha256": "d722d44250b3d094ab7add9059c8b004db76919d7d690735f20b3612c8787133",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\medication\\vasopressin.sql",
+      "rows": 22804,
+      "seconds": 0.23
+    },
+    "icustay_detail": {
+      "sha256": "506b89e05619550dc7766006c19fd295da31307c03359f33f87eb90acec4fafe",
+      "file": "E:\\ICUdatabase\\MIMIC\\mimic-code-main\\mimic-iv\\concepts_duckdb\\demographics\\icustay_detail.sql",
+      "rows": 94458,
+      "seconds": 0.2
+    }
+  },
+  "effect_estimated": false,
+  "adult_first_icu_n": 65366
+}

@@ -1,46 +1,29 @@
-# N09 revision code and aggregate results
+# N09 second-round revision code and aggregate results
 
-This package supports the first Critical Care revision dated 24 October 2026. It contains no patient-level files, credentials or source clinical data. Public repository: https://github.com/Sunyq2022/sepsis-chloride-fluid-choice. Initial snapshot tag: revision-2026-10-25.
+Second-round Critical Care revision, 13 November 2026. Versioned deposit: https://github.com/Sunyq2022/sepsis-chloride-fluid-choice/tree/revision-2026-11-13. The first-round results remain at the revision-2026-10-25 tag. No patient-level data are distributed.
 
-## Implementations and immutable originals
+## Current versus historical files
 
-The archive preserves the original project-relative layout. `02代码/01分析脚本/` contains read-only snapshots of the retained implementation and dependencies. New revision code is under `03结果/21_FULL_ICU_CAUSAL_PROGRAM_20260907/N09/critical_care_revision/code/`. Extract the archive into an empty review directory, never over an active research checkout.
+Current estimates and checks are under critical_care_revision/results/round2. Earlier rebuilt_analysis and critical_care_revision/results files are historical and must not be presented as corrected 550-patient estimates. New code preserves original implementation and frozen endpoints/seed. The clinical eligibility correction excludes two pre-bolus stage 3 specimens returned later; corrected version-specific dialysis codes add no exclusions. Eight comparisons use 500 patient bootstraps each, seed 20260909, with canonical subject/stay ordering.
 
-The new revision scripts do not call the original `extract()`, `analyse()` or original manuscript builders. They import pure estimator helpers, read retained inputs, and write only to `critical_care_revision`. The original SQL, protocol, manuscript and results were not overwritten. Source checksums are in the integrity JSON files.
+## Source relations and versions
 
-## Reproduction levels
+code/create_people_from_raw.sql creates the missing people relation directly from MIMIC-IV 3.1 patients, admissions and icustays. Set the raw file paths to the credentialed local installation and execute in the source database attached as s downstream. This was verified against 65,366 adult first ICU rows and every historical cohort key, age and ICU entry time.
 
-1. **Aggregate review without restricted data.** Inspect the supplied numeric CSVs, protocol, source SQL, diagnostic figure source and code. This does not reproduce individual-level estimation.
-2. **Re-estimation for an authorized researcher with the frozen private cohort.** Place the authorized `cohort_private.parquet` under `rebuilt_analysis` in the original layout. Use the retained Python environment and run `revision_analysis.py --mode core`. This independently checks all eight main weighted risks, fits the diagnostic model and runs the six-hour landmark with 500 patient bootstraps, seed 20260909. Private cohort data are not distributed.
-3. **Targeted raw-source checks.** `revision_analysis.py --mode source` reads MIMIC-IV v3.1 `hosp/labevents.csv.gz` and `icu/inputevents.csv.gz`, using the retained cohort and prior authorized source extracts. Configure the raw-data location in the new script for another host. It checks the 552 trigger records and unspecified prior-fluid items, and writes restricted row caches only under `work/private` (not included here).
-4. **Full extraction from raw MIMIC-IV.** The retained extraction SQL/code additionally require `mimiciv_hosp`, `mimiciv_icu`, and the specific MIMIC-derived sepsis3/SOFA/KDIGO/ventilation/vasopressor tables, plus the adult first-ICU source relation. Historical DuckDB cache paths in the original helper no longer exist on this host. The entire original extraction was not rerun in this revision. The archive provides the actual retained extraction implementation, not a claim of a fresh, portable one-command raw-data rebuild. Credentialed readers must configure their own equivalent relations and audit upstream derived-table versions before rebuilding. No alternative definitions should be substituted silently.
+code/derived_sql contains 31 exact retained SQL definitions. results/round2/derived_sql_versions.csv compares each SHA-256 with the original materialization ledger; all match. An upstream Git commit was not recorded. The manuscript therefore cites content versions rather than an unverified upstream release. Patient-identifier example comments in historical SQL may be removed in the distribution; executable logic is unchanged and the archive manifest records distributed bytes.
 
-## Commands in the existing project environment
+## Execution and requirements
 
-```text
-python critical_care_revision/code/revision_analysis.py --mode core
-python critical_care_revision/code/revision_analysis.py --mode source
-python critical_care_revision/code/revision_figures.py
-```
+The archive retains original project-relative paths. Extract into a separate review directory, never over an active checkout. Raw data require MIMIC credentialing and a valid data-use agreement. The analysis environment has Python 3.13, pandas, NumPy, scikit-learn, DuckDB, pyarrow and threadpoolctl; retained runtime_versions.json documents the original packages.
 
-Run from the N09 context using the original relative directory layout. DOCX authoring uses the separately bundled document runtime. `render_revision.ps1` exports only the new revision documents to internal QA PDFs/PNGs and closes only those read-only documents, not other user documents. Original rendering through the packaged LibreOffice helper was unavailable on this Windows host; WPS export was used and is documented.
+For authorized re-estimation, first create the people relation in the database attached as s and configure the MIMIC hosp, ICU and retained derived relations in b. Run the retained n09_corrected_estimand.py extract mode in the documented project layout to recreate the historical 552-person cohort and aggregate outcomes. Then run python critical_care_revision/code/round2_analysis.py from the N09 directory. The estimator reads raw MIMIC-IV 3.1 labevents, admissions and diagnoses to determine the additional exclusions and refits all eight comparisons. It requires neither the historical 706-person cohort nor the previous private case-review caches. Adjust the local raw-data path in the script. It writes the corrected private cohort only under work/private/round2. No fresh end-to-end raw event extraction was performed for this deposit.
 
-## Interpretation and audit boundary
+code/round2_source_provenance.py rebuilds people in memory and validates derived SQL hashes. code/round2_exhibits.py generates the current aggregate diagnostics and plots. Paths are explicitly local and require adaptation elsewhere. Dependencies for full event extraction remain documented in the original source SQL and 31 derived definitions; this revision did not rerun the entire raw-event extraction or claim a portable one-command rebuild. Importing older scripts is not a license to run their entry points.
 
-The original main contrast is LR minus saline. Revision tables reorient it to saline minus LR and saline divided by LR; confidence limits are reversed when reciprocated. The no-identified-prior-LR analysis means the 24 hours **before the chloride trigger**, not lifelong LR-naive status. One patient received identified LR between the trigger and time zero; other fluids had unspecified composition.
+## Interpretation
 
-The landmark selects patients alive, in the index ICU and composite-event-free at six hours, then follows to the original day 7. It changes the target population and conditions on post-treatment status. It is not a correction proving causality. The composite interval includes no difference.
+The overlap target is not the whole sepsis population. Restricted comparisons target different overlap populations; trigger strata retain residual imbalance. The landmark conditions on post-treatment status and is not a causal correction. Corrected prior-admission codes cannot exclude maintenance dialysis first documented at the index admission. The current aggregate interval excludes zero, but neither this nor individual components establishes a benefit of switching fluids. Historical reconstruction and multiple comparisons remain unaccounted for by ordinary bootstrap intervals.
 
-The script's runnable checks validate original-risk reproduction, fixed cohort size, temporal source consistency, 500 successful landmark bootstraps, and original-file integrity. They do not validate clinical exchangeability or independent KRT adjudication.
+## Participant flow
 
-## Versioning and corrections
-
-This repository is a versioned research record, not a claim that the analyses are error-free. The initial public tag preserves the results available on 25 October 2026. Corrections will be committed on main with a CHANGELOG entry describing the reason, validation, and affected estimates or interpretation. Published tags will not be moved. Cite a commit or tag for each manuscript version. If an error changes a submitted or published conclusion, the manuscript and author response must also be corrected. Previous positive results are not guaranteed to remain unchanged.
-
-## Licensing
-
-No new blanket reuse license is assigned to project-authored code in this deposit. Public availability alone does not grant unrestricted reuse. MIMIC-derived SQL retains its upstream licensing; see THIRD_PARTY_NOTICES.md. Data licensing and credentialed-access conditions are separate; no patient-level or source clinical data are distributed.
-
-## Participant selection
-
-See the [participant flowchart and sequential exclusion table](docs/participant_flow.md), including the distinction between the 552-person overall cohort and the 527-person six-hour landmark. All counts reproduce existing aggregate outputs.
+See the [current 550-person selection flow](docs/participant_flow_round2.md) and the [historical 552-person flow](docs/participant_flow.md).

@@ -1,0 +1,8 @@
+{
+  "historical_interval_reproduced": true,
+  "rd": 5.780176910493723,
+  "low": 0.6194483924488294,
+  "high": 11.560811912474218,
+  "bootstrap": 500,
+  "source_of_interval_difference": "canonical patient ordering, same seed and model"
+}

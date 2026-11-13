@@ -1,0 +1,8 @@
+{
+  "mimic_version": "3.1",
+  "people_n": 65366,
+  "historical_cohort_keys_age_time_matched": 552,
+  "derived_tables": 31,
+  "all_sql_hashes_match_materialization_ledger": true,
+  "upstream_git_commit": "Not recorded; exact SQL SHA-256 identifies retained derived definitions."
+}

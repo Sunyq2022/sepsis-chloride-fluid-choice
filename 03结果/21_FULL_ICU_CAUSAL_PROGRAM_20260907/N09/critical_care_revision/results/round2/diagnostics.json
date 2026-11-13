@@ -1,0 +1,90 @@
+[
+  {
+    "analysis": "Corrected overall",
+    "n": 550,
+    "lr_n": 181,
+    "ns_n": 369,
+    "ess_lr": 147.27201410304846,
+    "ess_ns": 235.55029453600898,
+    "max_smd": 0.05675013446043855,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Absolute only",
+    "n": 147,
+    "lr_n": 66,
+    "ns_n": 81,
+    "ess_lr": 49.442728086667366,
+    "ess_ns": 53.15069886273373,
+    "max_smd": 0.30885087686762974,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Rise only",
+    "n": 250,
+    "lr_n": 59,
+    "ns_n": 191,
+    "ess_lr": 50.854234691034925,
+    "ess_ns": 99.69176238005763,
+    "max_smd": 0.26829009422173566,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Both",
+    "n": 153,
+    "lr_n": 56,
+    "ns_n": 97,
+    "ess_lr": 35.780377825879334,
+    "ess_ns": 60.167414819525995,
+    "max_smd": 0.2350240346483715,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Absolute chloride >=110",
+    "n": 300,
+    "lr_n": 122,
+    "ns_n": 178,
+    "ess_lr": 90.01940742676234,
+    "ess_ns": 116.32428616669445,
+    "max_smd": 0.07916653344165779,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "No identified prior LR",
+    "n": 385,
+    "lr_n": 73,
+    "ns_n": 312,
+    "ess_lr": 65.75403396885487,
+    "ess_ns": 176.90573210336697,
+    "max_smd": 0.19198904657676275,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Six-hour landmark",
+    "n": 527,
+    "lr_n": 175,
+    "ns_n": 352,
+    "ess_lr": 139.54013659145403,
+    "ess_ns": 219.84742798896488,
+    "max_smd": 0.06019047356628007,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  },
+  {
+    "analysis": "Hospital follow-up",
+    "n": 550,
+    "lr_n": 181,
+    "ns_n": 369,
+    "ess_lr": 147.27201410304846,
+    "ess_ns": 235.55029453600898,
+    "max_smd": 0.05675013446043855,
+    "bootstrap_success": 500,
+    "bootstrap_errors": []
+  }
+]

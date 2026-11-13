@@ -1,3 +1,11 @@
+# Second-round revision (2026-11-13)
+
+- Excluded two pre-bolus creatinine stage 3 cases and corrected version-specific dialysis codes.
+- Refit eight comparisons with 500 patient-level resamples each.
+- Added source relation SQL and 31 derived definitions with content hashes.
+- Reproduced the corrected comparison directly from raw creatinine records with the retained 552-person input, without the historical case-review caches.
+- The original public tag remains fixed.
+
 # Change log
 
 ## 2026-10-25 — Participant flow documentation

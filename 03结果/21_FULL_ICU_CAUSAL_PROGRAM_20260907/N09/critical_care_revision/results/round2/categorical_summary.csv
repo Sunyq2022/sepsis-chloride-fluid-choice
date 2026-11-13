@@ -1,0 +1,31 @@
+variable,arm,level,n
+gender,NS,M,212
+gender,NS,F,157
+gender,LR,M,103
+gender,LR,F,78
+decision_careunit,NS,Medical Intensive Care Unit (MICU),127
+decision_careunit,NS,Medical/Surgical Intensive Care Unit (MICU/SICU),91
+decision_careunit,NS,Surgical Intensive Care Unit (SICU),43
+decision_careunit,NS,Trauma SICU (TSICU),33
+decision_careunit,NS,Coronary Care Unit (CCU),33
+decision_careunit,NS,Cardiac Vascular Intensive Care Unit (CVICU),27
+decision_careunit,NS,Neuro Surgical Intensive Care Unit (Neuro SICU),14
+decision_careunit,NS,Neuro Intermediate,1
+decision_careunit,LR,Medical/Surgical Intensive Care Unit (MICU/SICU),61
+decision_careunit,LR,Cardiac Vascular Intensive Care Unit (CVICU),42
+decision_careunit,LR,Medical Intensive Care Unit (MICU),36
+decision_careunit,LR,Trauma SICU (TSICU),19
+decision_careunit,LR,Surgical Intensive Care Unit (SICU),14
+decision_careunit,LR,Coronary Care Unit (CCU),5
+decision_careunit,LR,Neuro Surgical Intensive Care Unit (Neuro SICU),3
+decision_careunit,LR,Neuro Intermediate,1
+anchor_year_group,NS,2008 - 2010,152
+anchor_year_group,NS,2011 - 2013,113
+anchor_year_group,NS,2014 - 2016,69
+anchor_year_group,NS,2017 - 2019,32
+anchor_year_group,NS,2020 - 2022,3
+anchor_year_group,LR,2008 - 2010,61
+anchor_year_group,LR,2011 - 2013,53
+anchor_year_group,LR,2014 - 2016,49
+anchor_year_group,LR,2017 - 2019,17
+anchor_year_group,LR,2020 - 2022,1

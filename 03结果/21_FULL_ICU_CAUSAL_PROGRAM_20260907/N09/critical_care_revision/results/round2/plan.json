@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-13",
+  "seed": 20260909,
+  "bootstrap": 500,
+  "changes": [
+    "Version-specific prior-admission ESRD/dialysis codes",
+    "Exclude stage 3 in pre-bolus specimens returned later"
+  ],
+  "requested_strata": [
+    "Absolute only",
+    "Rise only",
+    "Both"
+  ],
+  "unchanged": [
+    "exposure definition",
+    "endpoints",
+    "baseline propensity features",
+    "bootstrap seed and count"
+  ],
+  "index_diagnoses": "Audit only: discharge diagnoses are not proof of baseline maintenance dialysis."
+}

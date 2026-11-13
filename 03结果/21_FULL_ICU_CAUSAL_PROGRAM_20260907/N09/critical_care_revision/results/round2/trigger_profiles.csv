@@ -1,0 +1,4 @@
+trigger,n,ns_n,lr_n,chloride_min,chloride_median,chloride_max,chloride_below100,chloride_below105
+Absolute only,147,81,66,110.0,111.0,140.0,0,0
+Rise only,250,191,59,81.0,105.0,109.0,39,101
+Both,153,97,56,110.0,112.0,136.0,0,0
